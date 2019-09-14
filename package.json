@@ -1,0 +1,32 @@
+{
+  "name": "njsblog",
+  "version": "1.0.0",
+  "description": "A simple CMS built with Node.js, Express and MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anilmgr/NJSblog.git"
+  },
+  "keywords": [
+    "Blog",
+    "Node.js",
+    "Mongoose",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Anil Baral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anilmgr/NJSblog/issues"
+  },
+  "homepage": "https://github.com/Anilmgr/NJSblog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.0"
+  }
+}
